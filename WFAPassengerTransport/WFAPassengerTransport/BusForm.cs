@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WFAPassengerTransport
 {
-    public partial class Form1 : Form
+    public partial class BusForm : Form
     {
-        public Form1()
+        public BusForm()
         {
             InitializeComponent();
         }

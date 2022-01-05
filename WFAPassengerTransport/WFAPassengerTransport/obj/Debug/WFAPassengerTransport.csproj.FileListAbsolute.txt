@@ -1,0 +1,10 @@
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\bin\Debug\WFAPassengerTransport.exe.config
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\bin\Debug\WFAPassengerTransport.exe
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\bin\Debug\WFAPassengerTransport.pdb
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.csprojAssemblyReference.cache
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.Properties.Resources.resources
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.csproj.GenerateResource.cache
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.csproj.CoreCompileInputs.cache
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.exe
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.pdb
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.MainForm.resources
