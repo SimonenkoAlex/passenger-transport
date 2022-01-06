@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bus.cs" />
+    <Compile Include="ElectricTrain.cs" />
     <Compile Include="Transport.cs" />
     <Compile Include="ITransport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

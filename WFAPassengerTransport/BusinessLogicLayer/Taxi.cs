@@ -35,10 +35,12 @@ namespace BusinessLogicLayer
 
         public override double ProfitCalculation()
         {
-            if (mileage < 50){
+            if (mileage < 50)
+            {
                 return costOfFiling * (discount / 100);
             }
-            else if (mileage >= 50 && mileage < 100) {
+            else if (mileage >= 50 && mileage < 100)
+            {
                 return (costOfFiling * 1.3) * (discount / 100);
             }
             else if (mileage >= 100 && mileage < 150)
