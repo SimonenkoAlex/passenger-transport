@@ -35,19 +35,20 @@ namespace BusinessLogicLayer
 
         public override double ProfitCalculation()
         {
+            double temp = (double) discount / 100;
             if (mileage < 50)
             {
-                return costOfFiling * (discount / 100);
+                return Math.Round(costOfFiling - costOfFiling * temp, 2);
             }
-            else if (mileage >= 50 && mileage < 100)
+            else if (mileage < 100)
             {
-                return (costOfFiling * 1.3) * (discount / 100);
+                return Math.Round(costOfFiling * 1.3 - costOfFiling * 1.3 * temp, 2);
             }
-            else if (mileage >= 100 && mileage < 150)
+            else if (mileage < 150)
             {
-                return (costOfFiling * 1.6) * (discount / 100);
+                return Math.Round(costOfFiling * 1.6 - costOfFiling * 1.6 * temp, 2);
             }
-            else return (costOfFiling * 2) * (discount / 100);
+            else return Math.Round(costOfFiling * 2 - costOfFiling * 2 * temp, 2);
         }
     }
 }

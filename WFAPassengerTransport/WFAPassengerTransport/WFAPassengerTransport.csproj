@@ -112,5 +112,11 @@
     <Content Include="images\taxi.jpg" />
     <Content Include="images\train.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogicLayer\BusinessLogicLayer.csproj">
+      <Project>{703a479e-6a1f-4f9d-b7a7-8cb169f1e513}</Project>
+      <Name>BusinessLogicLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

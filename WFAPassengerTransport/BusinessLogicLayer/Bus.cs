@@ -9,11 +9,11 @@ namespace BusinessLogicLayer
     public class Bus : Transport
     {
         private double costTicket;
-        private double countPassengers;
+        private int countPassengers;
 
         public Bus() : base() { }
 
-        public Bus(string model, int year, string number, double costTicket, double countPassengers)
+        public Bus(string model, int year, string number, double costTicket, int countPassengers)
             : base(model, year, number)
         {
             CostTicket = costTicket;
@@ -21,11 +21,11 @@ namespace BusinessLogicLayer
         }
 
         public double CostTicket { get => costTicket; set => costTicket = value; }
-        public double CountPassengers { get => countPassengers; set => countPassengers = value; }
+        public int CountPassengers { get => countPassengers; set => countPassengers = value; }
 
         public override double ProfitCalculation()
         {
-            return costTicket * countPassengers;
+            return Math.Round(costTicket * countPassengers, 2);
         }
     }
 }
