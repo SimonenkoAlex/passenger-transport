@@ -28,11 +28,11 @@ namespace BusinessLogicLayer
         {
             if (typeOfWagons == "купе")
             {
-                return Math.Round(basicPrice * 0.34, 2);
+                return Math.Round(basicPrice * 0.45, 2);
             }
             else if (typeOfWagons == "плацкарт")
             {
-                return Math.Round(basicPrice * 0.45, 2);
+                return Math.Round(basicPrice * 0.34, 2);
             }
             else return Math.Round(basicPrice * 1.23, 2);
         }
