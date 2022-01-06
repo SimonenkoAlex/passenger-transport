@@ -44,6 +44,7 @@
             this.btnBus.TabIndex = 0;
             this.btnBus.Text = "Автобус";
             this.btnBus.UseVisualStyleBackColor = true;
+            this.btnBus.Click += new System.EventHandler(this.btnBus_Click);
             // 
             // btnTaxi
             // 
@@ -54,6 +55,7 @@
             this.btnTaxi.TabIndex = 0;
             this.btnTaxi.Text = "Такси";
             this.btnTaxi.UseVisualStyleBackColor = true;
+            this.btnTaxi.Click += new System.EventHandler(this.btnTaxi_Click);
             // 
             // btnTrain
             // 
@@ -64,6 +66,7 @@
             this.btnTrain.TabIndex = 0;
             this.btnTrain.Text = "Электричка";
             this.btnTrain.UseVisualStyleBackColor = true;
+            this.btnTrain.Click += new System.EventHandler(this.btnTrain_Click);
             // 
             // MainForm
             // 

@@ -8,3 +8,6 @@ C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassenger
 C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.exe
 C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.pdb
 C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.MainForm.resources
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.BusForm.resources
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.TaxiForm.resources
+C:\Program_Project\GitHub\passenger-transport\WFAPassengerTransport\WFAPassengerTransport\obj\Debug\WFAPassengerTransport.TrainForm.resources

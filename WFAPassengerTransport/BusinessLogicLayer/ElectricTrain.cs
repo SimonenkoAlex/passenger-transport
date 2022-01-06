@@ -8,29 +8,29 @@ namespace BusinessLogicLayer
 {
     public class ElectricTrain : Transport
     {
-        private string passengerCategory;
+        private string typeOfWagons;
         private double basicPrice;
 
-        public string PassengerCategory { get => passengerCategory; set => passengerCategory = value; }
         public double BasicPrice { get => basicPrice; set => basicPrice = value; }
+        public string TypeOfWagons { get => typeOfWagons; set => typeOfWagons = value; }
 
         public ElectricTrain() : base() { }
 
         public ElectricTrain(string model, int year, string number,
-            string passengerCategory, double basicPrice)
+            string typeOfWagons, double basicPrice)
             : base(model, year, number)
         {
-            PassengerCategory = passengerCategory;
+            TypeOfWagons = typeOfWagons;
             BasicPrice = basicPrice;
         }
 
         public override double ProfitCalculation()
         {
-            if (passengerCategory == "student")
+            if (typeOfWagons == "купе")
             {
                 return basicPrice * 0.34;
             }
-            else if (passengerCategory == "pensioner")
+            else if (typeOfWagons == "плацкарт")
             {
                 return basicPrice * 0.45;
             }
