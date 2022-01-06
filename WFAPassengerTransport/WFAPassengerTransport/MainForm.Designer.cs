@@ -75,6 +75,7 @@
             this.Controls.Add(this.btnTaxi);
             this.Controls.Add(this.btnBus);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Пассажирский транспорт";
             this.ResumeLayout(false);
 
